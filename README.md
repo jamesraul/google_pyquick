@@ -1,9 +1,9 @@
 # google_pyquick - Google's Python Class
+
 https://developers.google.com/edu/python/
 
 Code for Google's Python Class
 Copyright 2010 Google Inc.
-
 This code developed by Nick Parlante
 at Google Inc.
 
