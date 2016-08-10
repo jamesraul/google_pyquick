@@ -25,6 +25,11 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
   # +++your code here+++
+  base_string = "Number of donuts: "
+  if count >= 10:
+    print base_string + "many"
+  else:
+    print base_string + str(count)
   return
 
 
@@ -35,6 +40,10 @@ def donuts(count):
 # is less than 2, return instead the empty string.
 def both_ends(s):
   # +++your code here+++
+  if s < 2:
+    print ""
+  else:
+    s = s[:2] + s[-2:]
   return
 
 
@@ -49,6 +58,8 @@ def both_ends(s):
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
   # +++your code here+++
+  if len(s) >= 1:
+    s[0] + s[1:].replace(s[0], '*')
   return
 
 
