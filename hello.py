@@ -31,8 +31,8 @@ def main():
   print 'Hello', name
 
 
-blue = 1
-red = 2
+blue = 3
+red = 4
 
 
 def new_funct():
