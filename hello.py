@@ -31,6 +31,19 @@ def main():
   print 'Hello', name
 
 
+blue = 1
+red = 2
+
+
+def new_funct():
+  # this is great function I tell ya
+  if blue != red:
+    print "Blue is not the same color as red silly."
+  else:
+    print " Somehow blue is the same as red."
+
+
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
   main()
+  new_funct()
