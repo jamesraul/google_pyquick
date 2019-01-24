@@ -22,7 +22,7 @@ dsdf
 
 sdfd
 
-# yeah dude
+# yeah
 
 Whatllleee
 
